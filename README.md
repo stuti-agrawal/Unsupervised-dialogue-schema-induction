@@ -38,7 +38,9 @@ Please refer to the `src` directory for the source code, and the `data` director
 To replicate the research findings, follow these steps:
 1. Clone the repository
 2. Install the necessary dependencies (mentioned in `requirements.txt`)
-3. Run the code
+3. Run the code 
+`python main.py`
+
 
 ## Contributions
 - Introduced a new approach for automatically constructing dialog schemas in an unsupervised manner from domain-specific conversations.
