@@ -12,6 +12,8 @@ This repository contains my research work on "Dialogue Schema Induction: An Unsu
 - Derived dialog schemas using heuristics like transition probability.
 - Successfully experimented with the MetaWoZ dataset, demonstrating the efficacy of the approach.
 
+An example of a schema for the ordering a pizza domain:
+![alt text](output/schema.png). 
 
 ## Technical Skills
 - Natural Language Processing
@@ -46,6 +48,8 @@ To replicate the research findings, follow these steps:
 - Introduced a new approach for automatically constructing dialog schemas in an unsupervised manner from domain-specific conversations.
 - Successfully categorized and labeled conversational utterances using a multi-phase framework, thereby identifying the distinct dialog actions that serve as nodes in a graph-based schema.
 - Achieved promising results on the MetaWoZ dataset with the approach.
+
+
 
 ## Future Work
 - Extending the schema induction approach to open-domain conversations.
