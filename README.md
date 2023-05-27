@@ -5,30 +5,32 @@ This repository contains my research work on "Dialogue Schema Induction: An Unsu
 
 ## Highlights
 - Developed an end-to-end pipeline for unsupervised dialog schema induction from domain-specific conversations.
-- Leveraged BERT-based sentence transformer method for clustering and dialog labeling.
-- Utilized Agglomerative Clustering for grouping similar utterances.
+- Leveraged BERT-based sentence transformer method for generating embeddings of utterances.
+- Utilized Agglomerative Clustering from sklearn for clustering similar utterances.
 - Employed GPT-3 language model for high-level dialogue action recognition.
-- Optimized cluster merging to improve coherence of the resulting dialogue schema.
+- Optimized cluster merging using spacy lemmatizer and cosine similarity to improve coherence of the resulting dialogue schema.
+- Derived dialog schemas using heuristics like transition probability.
 - Successfully experimented with the MetaWoZ dataset, demonstrating the efficacy of the approach.
+
 
 ## Technical Skills
 - Natural Language Processing
 - Unsupervised Machine Learning
 - Dialogue Systems
 - BERT-based sentence transformer
-- Agglomerative Clustering
 - GPT-3 Language Model
 - Python
 - Spacy
 - PyTorch
+- Sklearn
 
 ## Project Structure
 This research work is organized into the following sections:
-- Utterance Clustering
-- Clustering
-- Cluster Labelling and Merging
-- Inducing Schema from Clusters
-- Experiments with the MetaWoZ dataset
+- Finding embeddings for utterances
+- Clustering the utterances
+- Labeling the clusters
+- Merging the clusters
+- Using heuristics to find the schema for clusters
 
 ## Quick Start
 Please refer to the `src` directory for the source code, and the `data` directory for the dataset used in this research. 
