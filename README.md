@@ -47,6 +47,10 @@ To replicate the research findings, follow these steps:
 - Successfully categorized and labeled conversational utterances using a multi-phase framework, thereby identifying the distinct dialog actions that serve as nodes in a graph-based schema.
 - Achieved promising results on the MetaWoZ dataset with the approach.
 
+An example of a schema for the ordering a pizza domain:
+![alt text](output/schema.png). 
+
+
 ## Future Work
 - Extending the schema induction approach to open-domain conversations.
 - Exploring new strategies for schema induction.
